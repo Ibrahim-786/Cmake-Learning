@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/duplicate_calculator.dir/main.c.o  -o duplicate_calculator  libmy_math.a libmy_print.a 

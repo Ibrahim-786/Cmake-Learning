@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../my_math_dir/inc/my_math/div.h
+
+/home/pasha/Cmake_coures/modules3/my_math_dir/src/div.c
+my_math/div.h
+/home/pasha/Cmake_coures/modules3/my_math_dir/src/my_math/div.h
+

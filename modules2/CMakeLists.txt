@@ -20,6 +20,7 @@ target_link_libraries(calculator
 	PRIVATE	my_math
 		my_print)
 
+	i
 target_link_libraries(duplicate_calculator
 	PRIVATE my_math
 	my_print)

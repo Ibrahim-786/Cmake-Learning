@@ -1,3 +1,3 @@
-/home/pasha/Cmake_coures/modules1/build/CMakeFiles/rebuild_cache.dir
-/home/pasha/Cmake_coures/modules1/build/CMakeFiles/edit_cache.dir
-/home/pasha/Cmake_coures/modules1/build/CMakeFiles/calculator.dir
+/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/build/CMakeFiles/rebuild_cache.dir
+/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/build/CMakeFiles/edit_cache.dir
+/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/build/CMakeFiles/calculator.dir

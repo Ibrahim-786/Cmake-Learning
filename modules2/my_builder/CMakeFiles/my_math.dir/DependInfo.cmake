@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/pasha/Cmake_coures/modules2/add.c" "/home/pasha/Cmake_coures/modules2/my_builder/CMakeFiles/my_math.dir/add.c.o"
-  "/home/pasha/Cmake_coures/modules2/div.c" "/home/pasha/Cmake_coures/modules2/my_builder/CMakeFiles/my_math.dir/div.c.o"
+  "/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/add.c" "/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder/CMakeFiles/my_math.dir/add.c.o"
+  "/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/div.c" "/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder/CMakeFiles/my_math.dir/div.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

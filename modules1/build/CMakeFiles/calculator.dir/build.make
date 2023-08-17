@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pasha/Cmake_coures/modules1
+CMAKE_SOURCE_DIR = /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pasha/Cmake_coures/modules1/build
+CMAKE_BINARY_DIR = /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/calculator.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/calculator.dir/flags.make
 
 CMakeFiles/calculator.dir/main.c.o: CMakeFiles/calculator.dir/flags.make
 CMakeFiles/calculator.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pasha/Cmake_coures/modules1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/calculator.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/calculator.dir/main.c.o   -c /home/pasha/Cmake_coures/modules1/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/calculator.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/calculator.dir/main.c.o   -c /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/main.c
 
 CMakeFiles/calculator.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/calculator.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pasha/Cmake_coures/modules1/main.c > CMakeFiles/calculator.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/main.c > CMakeFiles/calculator.dir/main.c.i
 
 CMakeFiles/calculator.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/calculator.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pasha/Cmake_coures/modules1/main.c -o CMakeFiles/calculator.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/main.c -o CMakeFiles/calculator.dir/main.c.s
 
 CMakeFiles/calculator.dir/add.c.o: CMakeFiles/calculator.dir/flags.make
 CMakeFiles/calculator.dir/add.c.o: ../add.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pasha/Cmake_coures/modules1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/calculator.dir/add.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/calculator.dir/add.c.o   -c /home/pasha/Cmake_coures/modules1/add.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/calculator.dir/add.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/calculator.dir/add.c.o   -c /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/add.c
 
 CMakeFiles/calculator.dir/add.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/calculator.dir/add.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pasha/Cmake_coures/modules1/add.c > CMakeFiles/calculator.dir/add.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/add.c > CMakeFiles/calculator.dir/add.c.i
 
 CMakeFiles/calculator.dir/add.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/calculator.dir/add.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pasha/Cmake_coures/modules1/add.c -o CMakeFiles/calculator.dir/add.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/add.c -o CMakeFiles/calculator.dir/add.c.s
 
 CMakeFiles/calculator.dir/div.c.o: CMakeFiles/calculator.dir/flags.make
 CMakeFiles/calculator.dir/div.c.o: ../div.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pasha/Cmake_coures/modules1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/calculator.dir/div.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/calculator.dir/div.c.o   -c /home/pasha/Cmake_coures/modules1/div.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/calculator.dir/div.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/calculator.dir/div.c.o   -c /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/div.c
 
 CMakeFiles/calculator.dir/div.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/calculator.dir/div.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pasha/Cmake_coures/modules1/div.c > CMakeFiles/calculator.dir/div.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/div.c > CMakeFiles/calculator.dir/div.c.i
 
 CMakeFiles/calculator.dir/div.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/calculator.dir/div.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pasha/Cmake_coures/modules1/div.c -o CMakeFiles/calculator.dir/div.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/div.c -o CMakeFiles/calculator.dir/div.c.s
 
 CMakeFiles/calculator.dir/print.c.o: CMakeFiles/calculator.dir/flags.make
 CMakeFiles/calculator.dir/print.c.o: ../print.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pasha/Cmake_coures/modules1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/calculator.dir/print.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/calculator.dir/print.c.o   -c /home/pasha/Cmake_coures/modules1/print.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/calculator.dir/print.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/calculator.dir/print.c.o   -c /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/print.c
 
 CMakeFiles/calculator.dir/print.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/calculator.dir/print.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pasha/Cmake_coures/modules1/print.c > CMakeFiles/calculator.dir/print.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/print.c > CMakeFiles/calculator.dir/print.c.i
 
 CMakeFiles/calculator.dir/print.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/calculator.dir/print.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pasha/Cmake_coures/modules1/print.c -o CMakeFiles/calculator.dir/print.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/print.c -o CMakeFiles/calculator.dir/print.c.s
 
 # Object files for target calculator
 calculator_OBJECTS = \
@@ -125,7 +125,7 @@ calculator: CMakeFiles/calculator.dir/div.c.o
 calculator: CMakeFiles/calculator.dir/print.c.o
 calculator: CMakeFiles/calculator.dir/build.make
 calculator: CMakeFiles/calculator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pasha/Cmake_coures/modules1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable calculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable calculator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calculator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/calculator.dir/clean:
 .PHONY : CMakeFiles/calculator.dir/clean
 
 CMakeFiles/calculator.dir/depend:
-	cd /home/pasha/Cmake_coures/modules1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pasha/Cmake_coures/modules1 /home/pasha/Cmake_coures/modules1 /home/pasha/Cmake_coures/modules1/build /home/pasha/Cmake_coures/modules1/build /home/pasha/Cmake_coures/modules1/build/CMakeFiles/calculator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1 /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1 /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/build /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/build /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/build/CMakeFiles/calculator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/calculator.dir/depend
 

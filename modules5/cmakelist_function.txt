@@ -1,0 +1,31 @@
+cmake_minimum_required(VERSION 3.0.0)
+
+
+function(print_detail var)
+	message("My name is ${var}")
+
+	if(DEFINED ARGV1)
+		message(" ARGC: ${ARGC} ARGV0: ${ARGV0} ARGV1: ${ARGV1} ARGV2: ${ARGV2} ARGV3 ${ARGV3}")
+		
+	endif()
+endfunction()
+
+
+print_detail(ibrahim pasha)
+
+set(name ibrahim)
+
+
+print_detail(${name})
+
+print_detail(${name} pasha 26 27)
+
+
+#================
+#ARGC count of total arg
+#ARGV all args
+#ARGN list of optional arg
+#ARGV0 1st arg
+#ARGV1 2nd arg
+#ARGV2 3rd arg
+#

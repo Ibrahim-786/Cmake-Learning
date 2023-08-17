@@ -6,27 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/pasha/Cmake_coures/modules1/add.c
+/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/add.c
 
-/home/pasha/Cmake_coures/modules1/add.h
+/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/add.h
 
-/home/pasha/Cmake_coures/modules1/div.c
+/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/div.c
 
-/home/pasha/Cmake_coures/modules1/div.h
+/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/div.h
 
-/home/pasha/Cmake_coures/modules1/main.c
+/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/main.c
 stdio.h
 -
 add.h
-/home/pasha/Cmake_coures/modules1/add.h
+/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/add.h
 div.h
-/home/pasha/Cmake_coures/modules1/div.h
+/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/div.h
 print.h
-/home/pasha/Cmake_coures/modules1/print.h
+/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/print.h
 
-/home/pasha/Cmake_coures/modules1/print.c
+/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/print.c
 stdio.h
 -
 
-/home/pasha/Cmake_coures/modules1/print.h
+/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/print.h
 

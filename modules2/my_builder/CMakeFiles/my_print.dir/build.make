@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pasha/Cmake_coures/modules2
+CMAKE_SOURCE_DIR = /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pasha/Cmake_coures/modules2/my_builder
+CMAKE_BINARY_DIR = /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder
 
 # Include any dependencies generated for this target.
 include CMakeFiles/my_print.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/my_print.dir/flags.make
 
 CMakeFiles/my_print.dir/print.c.o: CMakeFiles/my_print.dir/flags.make
 CMakeFiles/my_print.dir/print.c.o: ../print.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pasha/Cmake_coures/modules2/my_builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/my_print.dir/print.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/my_print.dir/print.c.o   -c /home/pasha/Cmake_coures/modules2/print.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/my_print.dir/print.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/my_print.dir/print.c.o   -c /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/print.c
 
 CMakeFiles/my_print.dir/print.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_print.dir/print.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pasha/Cmake_coures/modules2/print.c > CMakeFiles/my_print.dir/print.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/print.c > CMakeFiles/my_print.dir/print.c.i
 
 CMakeFiles/my_print.dir/print.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_print.dir/print.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pasha/Cmake_coures/modules2/print.c -o CMakeFiles/my_print.dir/print.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/print.c -o CMakeFiles/my_print.dir/print.c.s
 
 # Object files for target my_print
 my_print_OBJECTS = \
@@ -80,7 +80,7 @@ my_print_EXTERNAL_OBJECTS =
 libmy_print.a: CMakeFiles/my_print.dir/print.c.o
 libmy_print.a: CMakeFiles/my_print.dir/build.make
 libmy_print.a: CMakeFiles/my_print.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pasha/Cmake_coures/modules2/my_builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libmy_print.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libmy_print.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/my_print.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_print.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/my_print.dir/clean:
 .PHONY : CMakeFiles/my_print.dir/clean
 
 CMakeFiles/my_print.dir/depend:
-	cd /home/pasha/Cmake_coures/modules2/my_builder && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pasha/Cmake_coures/modules2 /home/pasha/Cmake_coures/modules2 /home/pasha/Cmake_coures/modules2/my_builder /home/pasha/Cmake_coures/modules2/my_builder /home/pasha/Cmake_coures/modules2/my_builder/CMakeFiles/my_print.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2 /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2 /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder/CMakeFiles/my_print.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/my_print.dir/depend
 

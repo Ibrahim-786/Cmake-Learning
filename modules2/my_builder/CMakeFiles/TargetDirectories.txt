@@ -1,6 +1,6 @@
-/home/pasha/Cmake_coures/modules2/my_builder/CMakeFiles/rebuild_cache.dir
-/home/pasha/Cmake_coures/modules2/my_builder/CMakeFiles/edit_cache.dir
-/home/pasha/Cmake_coures/modules2/my_builder/CMakeFiles/my_print.dir
-/home/pasha/Cmake_coures/modules2/my_builder/CMakeFiles/duplicate_calculator.dir
-/home/pasha/Cmake_coures/modules2/my_builder/CMakeFiles/calculator.dir
-/home/pasha/Cmake_coures/modules2/my_builder/CMakeFiles/my_math.dir
+/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder/CMakeFiles/rebuild_cache.dir
+/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder/CMakeFiles/edit_cache.dir
+/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder/CMakeFiles/my_print.dir
+/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder/CMakeFiles/duplicate_calculator.dir
+/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder/CMakeFiles/calculator.dir
+/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder/CMakeFiles/my_math.dir

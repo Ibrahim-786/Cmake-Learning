@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/pasha/Cmake_coures/modules2/print.c" "/home/pasha/Cmake_coures/modules2/my_builder/CMakeFiles/my_print.dir/print.c.o"
+  "/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/print.c" "/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder/CMakeFiles/my_print.dir/print.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

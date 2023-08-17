@@ -1,0 +1,38 @@
+cmake_minimum_required(VERSION 3.0.0)
+
+
+set(VAR a)
+
+
+set(VAR ${VAR}a)
+
+message(${VAR})
+
+
+
+
+
+while(NOT VAR STREQUAL "aaaaaaaaaaaaa")
+	set(VAR ${VAR}a)
+	message(${VAR})
+endwhile()
+
+
+foreach(Name Alice Bob Charlie)
+	message(${Name})
+endforeach()
+
+
+foreach(x RANGE 100 105)
+	message("person_${x}")
+endforeach()
+
+
+set(VAR1 0;1)
+set(VAR2 2 3)
+set(VAR3 "4;5")
+
+
+foreach(x IN LISTS VAR1 VAR2 VAR3)
+	message("x = ${x}")
+endforeach()

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pasha/Cmake_coures/modules2
+CMAKE_SOURCE_DIR = /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pasha/Cmake_coures/modules2/my_builder
+CMAKE_BINARY_DIR = /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder
 
 # Include any dependencies generated for this target.
 include CMakeFiles/my_math.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/my_math.dir/flags.make
 
 CMakeFiles/my_math.dir/add.c.o: CMakeFiles/my_math.dir/flags.make
 CMakeFiles/my_math.dir/add.c.o: ../add.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pasha/Cmake_coures/modules2/my_builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/my_math.dir/add.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/my_math.dir/add.c.o   -c /home/pasha/Cmake_coures/modules2/add.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/my_math.dir/add.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/my_math.dir/add.c.o   -c /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/add.c
 
 CMakeFiles/my_math.dir/add.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_math.dir/add.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pasha/Cmake_coures/modules2/add.c > CMakeFiles/my_math.dir/add.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/add.c > CMakeFiles/my_math.dir/add.c.i
 
 CMakeFiles/my_math.dir/add.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_math.dir/add.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pasha/Cmake_coures/modules2/add.c -o CMakeFiles/my_math.dir/add.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/add.c -o CMakeFiles/my_math.dir/add.c.s
 
 CMakeFiles/my_math.dir/div.c.o: CMakeFiles/my_math.dir/flags.make
 CMakeFiles/my_math.dir/div.c.o: ../div.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pasha/Cmake_coures/modules2/my_builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/my_math.dir/div.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/my_math.dir/div.c.o   -c /home/pasha/Cmake_coures/modules2/div.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/my_math.dir/div.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/my_math.dir/div.c.o   -c /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/div.c
 
 CMakeFiles/my_math.dir/div.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_math.dir/div.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pasha/Cmake_coures/modules2/div.c > CMakeFiles/my_math.dir/div.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/div.c > CMakeFiles/my_math.dir/div.c.i
 
 CMakeFiles/my_math.dir/div.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_math.dir/div.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pasha/Cmake_coures/modules2/div.c -o CMakeFiles/my_math.dir/div.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/div.c -o CMakeFiles/my_math.dir/div.c.s
 
 # Object files for target my_math
 my_math_OBJECTS = \
@@ -95,7 +95,7 @@ libmy_math.a: CMakeFiles/my_math.dir/add.c.o
 libmy_math.a: CMakeFiles/my_math.dir/div.c.o
 libmy_math.a: CMakeFiles/my_math.dir/build.make
 libmy_math.a: CMakeFiles/my_math.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pasha/Cmake_coures/modules2/my_builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libmy_math.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libmy_math.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/my_math.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_math.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/my_math.dir/clean:
 .PHONY : CMakeFiles/my_math.dir/clean
 
 CMakeFiles/my_math.dir/depend:
-	cd /home/pasha/Cmake_coures/modules2/my_builder && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pasha/Cmake_coures/modules2 /home/pasha/Cmake_coures/modules2 /home/pasha/Cmake_coures/modules2/my_builder /home/pasha/Cmake_coures/modules2/my_builder /home/pasha/Cmake_coures/modules2/my_builder/CMakeFiles/my_math.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2 /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2 /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules2/my_builder/CMakeFiles/my_math.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/my_math.dir/depend
 

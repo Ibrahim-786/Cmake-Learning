@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/pasha/Cmake_coures/modules1/add.c" "/home/pasha/Cmake_coures/modules1/build/CMakeFiles/calculator.dir/add.c.o"
-  "/home/pasha/Cmake_coures/modules1/div.c" "/home/pasha/Cmake_coures/modules1/build/CMakeFiles/calculator.dir/div.c.o"
-  "/home/pasha/Cmake_coures/modules1/main.c" "/home/pasha/Cmake_coures/modules1/build/CMakeFiles/calculator.dir/main.c.o"
-  "/home/pasha/Cmake_coures/modules1/print.c" "/home/pasha/Cmake_coures/modules1/build/CMakeFiles/calculator.dir/print.c.o"
+  "/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/add.c" "/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/build/CMakeFiles/calculator.dir/add.c.o"
+  "/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/div.c" "/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/build/CMakeFiles/calculator.dir/div.c.o"
+  "/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/main.c" "/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/build/CMakeFiles/calculator.dir/main.c.o"
+  "/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/print.c" "/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules1/build/CMakeFiles/calculator.dir/print.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

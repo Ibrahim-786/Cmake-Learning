@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6
+CMAKE_SOURCE_DIR = /home/npanika/Cmake-Learning/modules6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build
+CMAKE_BINARY_DIR = /home/npanika/Cmake-Learning/modules6/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/CMakeFiles /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/my_math_dir/CMakeFiles/progress.marks
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_math_dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/CMakeFiles 0
+	cd /home/npanika/Cmake-Learning/modules6/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/npanika/Cmake-Learning/modules6/build/CMakeFiles /home/npanika/Cmake-Learning/modules6/build/my_math_dir/CMakeFiles/progress.marks
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_math_dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/npanika/Cmake-Learning/modules6/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_math_dir/clean
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_math_dir/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_math_dir/preinstall
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_math_dir/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_math_dir/preinstall
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_math_dir/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/npanika/Cmake-Learning/modules6/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 my_math_dir/CMakeFiles/my_math.dir/rule:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_math_dir/CMakeFiles/my_math.dir/rule
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_math_dir/CMakeFiles/my_math.dir/rule
 .PHONY : my_math_dir/CMakeFiles/my_math.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ my_math: my_math_dir/CMakeFiles/my_math.dir/rule
 
 # fast build rule for target.
 my_math/fast:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/build
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/build
 .PHONY : my_math/fast
 
 src/add.o: src/add.cpp.o
@@ -131,7 +131,7 @@ src/add.o: src/add.cpp.o
 
 # target to build an object file
 src/add.cpp.o:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/add.cpp.o
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/add.cpp.o
 .PHONY : src/add.cpp.o
 
 src/add.i: src/add.cpp.i
@@ -140,7 +140,7 @@ src/add.i: src/add.cpp.i
 
 # target to preprocess a source file
 src/add.cpp.i:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/add.cpp.i
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/add.cpp.i
 .PHONY : src/add.cpp.i
 
 src/add.s: src/add.cpp.s
@@ -149,7 +149,7 @@ src/add.s: src/add.cpp.s
 
 # target to generate assembly for a file
 src/add.cpp.s:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/add.cpp.s
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/add.cpp.s
 .PHONY : src/add.cpp.s
 
 src/div.o: src/div.cpp.o
@@ -158,7 +158,7 @@ src/div.o: src/div.cpp.o
 
 # target to build an object file
 src/div.cpp.o:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/div.cpp.o
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/div.cpp.o
 .PHONY : src/div.cpp.o
 
 src/div.i: src/div.cpp.i
@@ -167,7 +167,7 @@ src/div.i: src/div.cpp.i
 
 # target to preprocess a source file
 src/div.cpp.i:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/div.cpp.i
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/div.cpp.i
 .PHONY : src/div.cpp.i
 
 src/div.s: src/div.cpp.s
@@ -176,7 +176,7 @@ src/div.s: src/div.cpp.s
 
 # target to generate assembly for a file
 src/div.cpp.s:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/div.cpp.s
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/div.cpp.s
 .PHONY : src/div.cpp.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/npanika/Cmake-Learning/modules6/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

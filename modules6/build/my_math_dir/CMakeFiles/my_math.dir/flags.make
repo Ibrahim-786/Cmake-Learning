@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/my_math_dir/inc 
+CXX_INCLUDES = -I/home/npanika/Cmake-Learning/modules6/my_math_dir/inc 
 

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/my_math_dir/src/add.cpp" "/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/my_math_dir/CMakeFiles/my_math.dir/src/add.cpp.o"
-  "/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/my_math_dir/src/div.cpp" "/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/my_math_dir/CMakeFiles/my_math.dir/src/div.cpp.o"
+  "/home/npanika/Cmake-Learning/modules6/my_math_dir/src/add.cpp" "/home/npanika/Cmake-Learning/modules6/build/my_math_dir/CMakeFiles/my_math.dir/src/add.cpp.o"
+  "/home/npanika/Cmake-Learning/modules6/my_math_dir/src/div.cpp" "/home/npanika/Cmake-Learning/modules6/build/my_math_dir/CMakeFiles/my_math.dir/src/div.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

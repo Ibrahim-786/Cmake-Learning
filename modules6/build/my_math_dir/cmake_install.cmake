@@ -1,4 +1,4 @@
-# Install script for directory: /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/my_math_dir
+# Install script for directory: /home/npanika/Cmake-Learning/modules6/my_math_dir
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

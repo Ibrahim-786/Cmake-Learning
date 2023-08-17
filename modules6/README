@@ -1,0 +1,6 @@
+1) all the variable written in cmakecache.txt is cache variable
+2) some of the variable set by development environment
+3) some variable set by command inside CMakeLists.txt
+4) cache variable can be using set command
+5) set(A "123" CACHE STRING "this command sets variable A is persistent cache")
+6) cache variable can also be modified using -D from command line

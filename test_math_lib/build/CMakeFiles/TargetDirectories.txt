@@ -1,0 +1,3 @@
+/home/npanika/Cmake-Learning/test_math_lib/build/CMakeFiles/rebuild_cache.dir
+/home/npanika/Cmake-Learning/test_math_lib/build/CMakeFiles/edit_cache.dir
+/home/npanika/Cmake-Learning/test_math_lib/build/CMakeFiles/calc.dir

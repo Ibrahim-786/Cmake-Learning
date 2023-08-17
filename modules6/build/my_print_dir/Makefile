@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6
+CMAKE_SOURCE_DIR = /home/npanika/Cmake-Learning/modules6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build
+CMAKE_BINARY_DIR = /home/npanika/Cmake-Learning/modules6/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/CMakeFiles /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/my_print_dir/CMakeFiles/progress.marks
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_print_dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/CMakeFiles 0
+	cd /home/npanika/Cmake-Learning/modules6/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/npanika/Cmake-Learning/modules6/build/CMakeFiles /home/npanika/Cmake-Learning/modules6/build/my_print_dir/CMakeFiles/progress.marks
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_print_dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/npanika/Cmake-Learning/modules6/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_print_dir/clean
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_print_dir/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_print_dir/preinstall
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_print_dir/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_print_dir/preinstall
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_print_dir/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/npanika/Cmake-Learning/modules6/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 my_print_dir/CMakeFiles/my_print.dir/rule:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_print_dir/CMakeFiles/my_print.dir/rule
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f CMakeFiles/Makefile2 my_print_dir/CMakeFiles/my_print.dir/rule
 .PHONY : my_print_dir/CMakeFiles/my_print.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ my_print: my_print_dir/CMakeFiles/my_print.dir/rule
 
 # fast build rule for target.
 my_print/fast:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f my_print_dir/CMakeFiles/my_print.dir/build.make my_print_dir/CMakeFiles/my_print.dir/build
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f my_print_dir/CMakeFiles/my_print.dir/build.make my_print_dir/CMakeFiles/my_print.dir/build
 .PHONY : my_print/fast
 
 src/print.o: src/print.cpp.o
@@ -131,7 +131,7 @@ src/print.o: src/print.cpp.o
 
 # target to build an object file
 src/print.cpp.o:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f my_print_dir/CMakeFiles/my_print.dir/build.make my_print_dir/CMakeFiles/my_print.dir/src/print.cpp.o
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f my_print_dir/CMakeFiles/my_print.dir/build.make my_print_dir/CMakeFiles/my_print.dir/src/print.cpp.o
 .PHONY : src/print.cpp.o
 
 src/print.i: src/print.cpp.i
@@ -140,7 +140,7 @@ src/print.i: src/print.cpp.i
 
 # target to preprocess a source file
 src/print.cpp.i:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f my_print_dir/CMakeFiles/my_print.dir/build.make my_print_dir/CMakeFiles/my_print.dir/src/print.cpp.i
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f my_print_dir/CMakeFiles/my_print.dir/build.make my_print_dir/CMakeFiles/my_print.dir/src/print.cpp.i
 .PHONY : src/print.cpp.i
 
 src/print.s: src/print.cpp.s
@@ -149,7 +149,7 @@ src/print.s: src/print.cpp.s
 
 # target to generate assembly for a file
 src/print.cpp.s:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(MAKE) -f my_print_dir/CMakeFiles/my_print.dir/build.make my_print_dir/CMakeFiles/my_print.dir/src/print.cpp.s
+	cd /home/npanika/Cmake-Learning/modules6/build && $(MAKE) -f my_print_dir/CMakeFiles/my_print.dir/build.make my_print_dir/CMakeFiles/my_print.dir/src/print.cpp.s
 .PHONY : src/print.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/npanika/Cmake-Learning/modules6/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

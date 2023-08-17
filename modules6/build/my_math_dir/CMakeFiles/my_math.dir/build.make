@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6
+CMAKE_SOURCE_DIR = /home/npanika/Cmake-Learning/modules6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build
+CMAKE_BINARY_DIR = /home/npanika/Cmake-Learning/modules6/build
 
 # Include any dependencies generated for this target.
 include my_math_dir/CMakeFiles/my_math.dir/depend.make
@@ -59,29 +59,29 @@ include my_math_dir/CMakeFiles/my_math.dir/flags.make
 
 my_math_dir/CMakeFiles/my_math.dir/src/add.cpp.o: my_math_dir/CMakeFiles/my_math.dir/flags.make
 my_math_dir/CMakeFiles/my_math.dir/src/add.cpp.o: ../my_math_dir/src/add.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object my_math_dir/CMakeFiles/my_math.dir/src/add.cpp.o"
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/my_math_dir && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_math.dir/src/add.cpp.o -c /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/my_math_dir/src/add.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/npanika/Cmake-Learning/modules6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object my_math_dir/CMakeFiles/my_math.dir/src/add.cpp.o"
+	cd /home/npanika/Cmake-Learning/modules6/build/my_math_dir && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_math.dir/src/add.cpp.o -c /home/npanika/Cmake-Learning/modules6/my_math_dir/src/add.cpp
 
 my_math_dir/CMakeFiles/my_math.dir/src/add.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_math.dir/src/add.cpp.i"
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/my_math_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/my_math_dir/src/add.cpp > CMakeFiles/my_math.dir/src/add.cpp.i
+	cd /home/npanika/Cmake-Learning/modules6/build/my_math_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/npanika/Cmake-Learning/modules6/my_math_dir/src/add.cpp > CMakeFiles/my_math.dir/src/add.cpp.i
 
 my_math_dir/CMakeFiles/my_math.dir/src/add.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_math.dir/src/add.cpp.s"
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/my_math_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/my_math_dir/src/add.cpp -o CMakeFiles/my_math.dir/src/add.cpp.s
+	cd /home/npanika/Cmake-Learning/modules6/build/my_math_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/npanika/Cmake-Learning/modules6/my_math_dir/src/add.cpp -o CMakeFiles/my_math.dir/src/add.cpp.s
 
 my_math_dir/CMakeFiles/my_math.dir/src/div.cpp.o: my_math_dir/CMakeFiles/my_math.dir/flags.make
 my_math_dir/CMakeFiles/my_math.dir/src/div.cpp.o: ../my_math_dir/src/div.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object my_math_dir/CMakeFiles/my_math.dir/src/div.cpp.o"
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/my_math_dir && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_math.dir/src/div.cpp.o -c /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/my_math_dir/src/div.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/npanika/Cmake-Learning/modules6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object my_math_dir/CMakeFiles/my_math.dir/src/div.cpp.o"
+	cd /home/npanika/Cmake-Learning/modules6/build/my_math_dir && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_math.dir/src/div.cpp.o -c /home/npanika/Cmake-Learning/modules6/my_math_dir/src/div.cpp
 
 my_math_dir/CMakeFiles/my_math.dir/src/div.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_math.dir/src/div.cpp.i"
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/my_math_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/my_math_dir/src/div.cpp > CMakeFiles/my_math.dir/src/div.cpp.i
+	cd /home/npanika/Cmake-Learning/modules6/build/my_math_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/npanika/Cmake-Learning/modules6/my_math_dir/src/div.cpp > CMakeFiles/my_math.dir/src/div.cpp.i
 
 my_math_dir/CMakeFiles/my_math.dir/src/div.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_math.dir/src/div.cpp.s"
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/my_math_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/my_math_dir/src/div.cpp -o CMakeFiles/my_math.dir/src/div.cpp.s
+	cd /home/npanika/Cmake-Learning/modules6/build/my_math_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/npanika/Cmake-Learning/modules6/my_math_dir/src/div.cpp -o CMakeFiles/my_math.dir/src/div.cpp.s
 
 # Object files for target my_math
 my_math_OBJECTS = \
@@ -95,9 +95,9 @@ my_math_dir/libmy_math.a: my_math_dir/CMakeFiles/my_math.dir/src/add.cpp.o
 my_math_dir/libmy_math.a: my_math_dir/CMakeFiles/my_math.dir/src/div.cpp.o
 my_math_dir/libmy_math.a: my_math_dir/CMakeFiles/my_math.dir/build.make
 my_math_dir/libmy_math.a: my_math_dir/CMakeFiles/my_math.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libmy_math.a"
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/my_math_dir && $(CMAKE_COMMAND) -P CMakeFiles/my_math.dir/cmake_clean_target.cmake
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/my_math_dir && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_math.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/npanika/Cmake-Learning/modules6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libmy_math.a"
+	cd /home/npanika/Cmake-Learning/modules6/build/my_math_dir && $(CMAKE_COMMAND) -P CMakeFiles/my_math.dir/cmake_clean_target.cmake
+	cd /home/npanika/Cmake-Learning/modules6/build/my_math_dir && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_math.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 my_math_dir/CMakeFiles/my_math.dir/build: my_math_dir/libmy_math.a
@@ -105,10 +105,10 @@ my_math_dir/CMakeFiles/my_math.dir/build: my_math_dir/libmy_math.a
 .PHONY : my_math_dir/CMakeFiles/my_math.dir/build
 
 my_math_dir/CMakeFiles/my_math.dir/clean:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/my_math_dir && $(CMAKE_COMMAND) -P CMakeFiles/my_math.dir/cmake_clean.cmake
+	cd /home/npanika/Cmake-Learning/modules6/build/my_math_dir && $(CMAKE_COMMAND) -P CMakeFiles/my_math.dir/cmake_clean.cmake
 .PHONY : my_math_dir/CMakeFiles/my_math.dir/clean
 
 my_math_dir/CMakeFiles/my_math.dir/depend:
-	cd /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6 /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/my_math_dir /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/my_math_dir /home/npanika/ibrahim/cmake/Cmake-Learning-main/modules6/build/my_math_dir/CMakeFiles/my_math.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/npanika/Cmake-Learning/modules6/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/npanika/Cmake-Learning/modules6 /home/npanika/Cmake-Learning/modules6/my_math_dir /home/npanika/Cmake-Learning/modules6/build /home/npanika/Cmake-Learning/modules6/build/my_math_dir /home/npanika/Cmake-Learning/modules6/build/my_math_dir/CMakeFiles/my_math.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : my_math_dir/CMakeFiles/my_math.dir/depend
 

@@ -1,0 +1,5 @@
+/usr/local/include/my_math/add.h
+/usr/local/include/my_math/div.h
+/usr/local/lib/my_math/libmy_math.a
+/usr/local/lib/my_math/my_math-config.cmake
+/usr/local/lib/my_math/my_math-config-noconfig.cmake

@@ -13,3 +13,11 @@ add_executable(calculator main.cpp)
 
 
 target_link_libraries(calculator PRIVATE my_math my_print)
+
+
+set(A "123" CACHE STRING "This command sets variable A in persistent cache")
+
+message($CACHE{A})
+
+
+set(ENV name "pasha")
